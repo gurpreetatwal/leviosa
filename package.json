@@ -1,0 +1,24 @@
+{
+  "name": "leviosa",
+  "version": "0.0.0",
+  "description": "Opinionated tool for simplifying the release process of npm packages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurpreetatwal/leviosa.git"
+  },
+  "keywords": [
+    "npm",
+    "release",
+    "travis",
+    "ci",
+    "changelog",
+    "semver"
+  ],
+  "author": "Gurpreet Atwal <npm@gatwal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurpreetatwal/leviosa/issues"
+  },
+  "homepage": "https://github.com/gurpreetatwal/leviosa#readme"
+}
