@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "description": "Opinionated tool for simplifying the release process of npm packages",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --cache",
+    "test": "ava",
+    "posttest": "npm run lint -s",
+    "cover": "nyc npm test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gurpreetatwal/leviosa.git"
@@ -20,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/gurpreetatwal/leviosa/issues"
   },
-  "homepage": "https://github.com/gurpreetatwal/leviosa#readme"
+  "homepage": "https://github.com/gurpreetatwal/leviosa#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "eslint-config-smartcar": "^2.0.6",
+    "nyc": "^10.2.0"
+  }
 }
