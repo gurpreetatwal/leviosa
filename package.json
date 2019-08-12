@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/gurpreetatwal/leviosa#readme",
   "devDependencies": {
-    "ava": "^0.19.1",
-    "eslint": "^3.19.0",
-    "eslint-config-smartcar": "^2.0.6",
-    "nyc": "^10.2.0"
+    "ava": "^2.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-smartcar": "^3.0.0",
+    "nyc": "^14.1.1"
   }
 }
